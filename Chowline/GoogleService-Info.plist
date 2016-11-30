@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>687803843799-tjacsu1745a69a25dfpctv1n8fdptg4i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.687803843799-tjacsu1745a69a25dfpctv1n8fdptg4i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBuqGyTYDFzjniXh4eWE5u8xUTlpvHbnls</string>
+	<key>GCM_SENDER_ID</key>
+	<string>687803843799</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.harloch.Chowline</string>
+	<key>PROJECT_ID</key>
+	<string>chowline-b07bd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chowline-b07bd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:687803843799:ios:fc0edc3550fa75b4</string>
+	<key>DATABASE_URL</key>
+	<string>https://chowline-b07bd.firebaseio.com</string>
+</dict>
+</plist>

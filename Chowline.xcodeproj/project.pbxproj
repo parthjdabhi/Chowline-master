@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7E7901061BABD689C5D476 /* Pods_Chowline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6922E95D42CDB100FCBDFD75 /* Pods_Chowline.framework */; };
+		DA7335511DD90381003FC7C8 /* MarketLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335501DD90381003FC7C8 /* MarketLoginViewController.swift */; };
+		DA7335531DD9039E003FC7C8 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335521DD9039E003FC7C8 /* InitialViewController.swift */; };
+		DA7335551DD903BA003FC7C8 /* MarketMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335541DD903BA003FC7C8 /* MarketMainViewController.swift */; };
+		DA7335571DD903E0003FC7C8 /* MarketRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335561DD903E0003FC7C8 /* MarketRegisterViewController.swift */; };
+		DA73355C1DD979A3003FC7C8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73355B1DD979A3003FC7C8 /* MapViewController.swift */; };
+		DA73355E1DD97ADF003FC7C8 /* PostFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73355D1DD97ADF003FC7C8 /* PostFoodViewController.swift */; };
+		DA7335601DD97AEB003FC7C8 /* ViewFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA73355F1DD97AEB003FC7C8 /* ViewFoodViewController.swift */; };
+		DA7335621DD97AFC003FC7C8 /* MarketSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335611DD97AFC003FC7C8 /* MarketSettingsViewController.swift */; };
+		DA7335641DD97B4E003FC7C8 /* ViewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335631DD97B4E003FC7C8 /* ViewMarketViewController.swift */; };
+		DA7335661DDA47F0003FC7C8 /* ViewFoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335651DDA47F0003FC7C8 /* ViewFoodCell.swift */; };
+		DA7335861DDBEC15003FC7C8 /* ViewMarketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7335851DDBEC15003FC7C8 /* ViewMarketCell.swift */; };
+		DA733A311DDEA2F1003FC7C8 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA733A301DDEA2F1003FC7C8 /* PurchaseViewController.swift */; };
+		DAF03A3E1DE002540018FDE6 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF03A3D1DE002540018FDE6 /* BTNavigationDropdownMenu.swift */; };
+		DAF03A401DE003AA0018FDE6 /* DropInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF03A3F1DE003AA0018FDE6 /* DropInViewController.swift */; };
+		DAF596F71DD58C08000E8EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF596F61DD58C08000E8EC2 /* AppDelegate.swift */; };
+		DAF596F91DD58C08000E8EC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF596F81DD58C08000E8EC2 /* ViewController.swift */; };
+		DAF596FC1DD58C08000E8EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF596FA1DD58C08000E8EC2 /* Main.storyboard */; };
+		DAF596FF1DD58C08000E8EC2 /* Chowline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF596FD1DD58C08000E8EC2 /* Chowline.xcdatamodeld */; };
+		DAF597011DD58C08000E8EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF597001DD58C08000E8EC2 /* Assets.xcassets */; };
+		DAF597041DD58C08000E8EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF597021DD58C08000E8EC2 /* LaunchScreen.storyboard */; };
+		DAF5970F1DD58C08000E8EC2 /* ChowlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5970E1DD58C08000E8EC2 /* ChowlineTests.swift */; };
+		DAF5971A1DD58C08000E8EC2 /* ChowlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF597191DD58C08000E8EC2 /* ChowlineUITests.swift */; };
+		DAF597281DD58CCE000E8EC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAF597271DD58CCE000E8EC2 /* GoogleService-Info.plist */; };
+		DAF5972A1DD58E4A000E8EC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF597291DD58E4A000E8EC2 /* LoginViewController.swift */; };
+		DAF5972C1DD58E55000E8EC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5972B1DD58E55000E8EC2 /* SignUpViewController.swift */; };
+		DAF5972E1DD58E5E000E8EC2 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5972D1DD58E5E000E8EC2 /* MainPageViewController.swift */; };
+		DAF597331DD5906D000E8EC2 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF597301DD5906D000E8EC2 /* CommonUtils.swift */; };
+		DAF597341DD5906D000E8EC2 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF597311DD5906D000E8EC2 /* AEXML.swift */; };
+		DAF597351DD5906D000E8EC2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF597321DD5906D000E8EC2 /* AppState.swift */; };
+		DAF597391DD59087000E8EC2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF597381DD59087000E8EC2 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF5970B1DD58C08000E8EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF596EB1DD58C08000E8EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF596F21DD58C08000E8EC2;
+			remoteInfo = Chowline;
+		};
+		DAF597161DD58C08000E8EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF596EB1DD58C08000E8EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF596F21DD58C08000E8EC2;
+			remoteInfo = Chowline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B3F12C07F124E811EA694B /* Pods-Chowline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chowline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chowline/Pods-Chowline.debug.xcconfig"; sourceTree = "<group>"; };
+		6922E95D42CDB100FCBDFD75 /* Pods_Chowline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chowline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51304FC2FD5B7D41682CC8A /* Pods-Chowline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chowline.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chowline/Pods-Chowline.release.xcconfig"; sourceTree = "<group>"; };
+		DA7335501DD90381003FC7C8 /* MarketLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketLoginViewController.swift; sourceTree = "<group>"; };
+		DA7335521DD9039E003FC7C8 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		DA7335541DD903BA003FC7C8 /* MarketMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketMainViewController.swift; sourceTree = "<group>"; };
+		DA7335561DD903E0003FC7C8 /* MarketRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketRegisterViewController.swift; sourceTree = "<group>"; };
+		DA73355B1DD979A3003FC7C8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DA73355D1DD97ADF003FC7C8 /* PostFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFoodViewController.swift; sourceTree = "<group>"; };
+		DA73355F1DD97AEB003FC7C8 /* ViewFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFoodViewController.swift; sourceTree = "<group>"; };
+		DA7335611DD97AFC003FC7C8 /* MarketSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketSettingsViewController.swift; sourceTree = "<group>"; };
+		DA7335631DD97B4E003FC7C8 /* ViewMarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMarketViewController.swift; sourceTree = "<group>"; };
+		DA7335651DDA47F0003FC7C8 /* ViewFoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFoodCell.swift; sourceTree = "<group>"; };
+		DA7335851DDBEC15003FC7C8 /* ViewMarketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMarketCell.swift; sourceTree = "<group>"; };
+		DA733A301DDEA2F1003FC7C8 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		DAF03A3D1DE002540018FDE6 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		DAF03A3F1DE003AA0018FDE6 /* DropInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropInViewController.swift; sourceTree = "<group>"; };
+		DAF596F31DD58C08000E8EC2 /* Chowline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chowline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF596F61DD58C08000E8EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF596F81DD58C08000E8EC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAF596FB1DD58C08000E8EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF596FE1DD58C08000E8EC2 /* Chowline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chowline.xcdatamodel; sourceTree = "<group>"; };
+		DAF597001DD58C08000E8EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF597031DD58C08000E8EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAF597051DD58C08000E8EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF5970A1DD58C08000E8EC2 /* ChowlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChowlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF5970E1DD58C08000E8EC2 /* ChowlineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChowlineTests.swift; sourceTree = "<group>"; };
+		DAF597101DD58C08000E8EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF597151DD58C08000E8EC2 /* ChowlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChowlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF597191DD58C08000E8EC2 /* ChowlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChowlineUITests.swift; sourceTree = "<group>"; };
+		DAF5971B1DD58C08000E8EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF597271DD58CCE000E8EC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAF597291DD58E4A000E8EC2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DAF5972B1DD58E55000E8EC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DAF5972D1DD58E5E000E8EC2 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		DAF597301DD5906D000E8EC2 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		DAF597311DD5906D000E8EC2 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		DAF597321DD5906D000E8EC2 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DAF597371DD59087000E8EC2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DAF597381DD59087000E8EC2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DAF5973C1DD59359000E8EC2 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF596F01DD58C08000E8EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7E7901061BABD689C5D476 /* Pods_Chowline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597071DD58C08000E8EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597121DD58C08000E8EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446A164F128C24052A685F97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B3F12C07F124E811EA694B /* Pods-Chowline.debug.xcconfig */,
+				C51304FC2FD5B7D41682CC8A /* Pods-Chowline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA7335581DD903EE003FC7C8 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				DA7335501DD90381003FC7C8 /* MarketLoginViewController.swift */,
+				DA7335541DD903BA003FC7C8 /* MarketMainViewController.swift */,
+				DA7335561DD903E0003FC7C8 /* MarketRegisterViewController.swift */,
+				DA73355D1DD97ADF003FC7C8 /* PostFoodViewController.swift */,
+				DA73355F1DD97AEB003FC7C8 /* ViewFoodViewController.swift */,
+				DA7335651DDA47F0003FC7C8 /* ViewFoodCell.swift */,
+				DA7335611DD97AFC003FC7C8 /* MarketSettingsViewController.swift */,
+			);
+			name = Market;
+			sourceTree = "<group>";
+		};
+		DA7335591DD90404003FC7C8 /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				DAF597291DD58E4A000E8EC2 /* LoginViewController.swift */,
+				DAF5972B1DD58E55000E8EC2 /* SignUpViewController.swift */,
+				DAF5972D1DD58E5E000E8EC2 /* MainPageViewController.swift */,
+				DA73355B1DD979A3003FC7C8 /* MapViewController.swift */,
+				DA7335631DD97B4E003FC7C8 /* ViewMarketViewController.swift */,
+				DA7335851DDBEC15003FC7C8 /* ViewMarketCell.swift */,
+				DA733A301DDEA2F1003FC7C8 /* PurchaseViewController.swift */,
+				DAF03A3F1DE003AA0018FDE6 /* DropInViewController.swift */,
+			);
+			name = Customers;
+			sourceTree = "<group>";
+		};
+		DA73355A1DD90416003FC7C8 /* Storyboard & List */ = {
+			isa = PBXGroup;
+			children = (
+				DAF597001DD58C08000E8EC2 /* Assets.xcassets */,
+				DAF596FA1DD58C08000E8EC2 /* Main.storyboard */,
+				DAF597021DD58C08000E8EC2 /* LaunchScreen.storyboard */,
+				DAF597051DD58C08000E8EC2 /* Info.plist */,
+				DAF596FD1DD58C08000E8EC2 /* Chowline.xcdatamodeld */,
+				DAF597271DD58CCE000E8EC2 /* GoogleService-Info.plist */,
+			);
+			name = "Storyboard & List";
+			sourceTree = "<group>";
+		};
+		DAF596EA1DD58C08000E8EC2 = {
+			isa = PBXGroup;
+			children = (
+				DAF5973C1DD59359000E8EC2 /* Bridging-Header.h */,
+				DAF596F51DD58C08000E8EC2 /* Chowline */,
+				DAF5970D1DD58C08000E8EC2 /* ChowlineTests */,
+				DAF597181DD58C08000E8EC2 /* ChowlineUITests */,
+				DAF596F41DD58C08000E8EC2 /* Products */,
+				446A164F128C24052A685F97 /* Pods */,
+				F06B889479644EB8B00A17BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF596F41DD58C08000E8EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF596F31DD58C08000E8EC2 /* Chowline.app */,
+				DAF5970A1DD58C08000E8EC2 /* ChowlineTests.xctest */,
+				DAF597151DD58C08000E8EC2 /* ChowlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF596F51DD58C08000E8EC2 /* Chowline */ = {
+			isa = PBXGroup;
+			children = (
+				DAF596F61DD58C08000E8EC2 /* AppDelegate.swift */,
+				DAF596F81DD58C08000E8EC2 /* ViewController.swift */,
+				DA7335521DD9039E003FC7C8 /* InitialViewController.swift */,
+				DA7335591DD90404003FC7C8 /* Customers */,
+				DA7335581DD903EE003FC7C8 /* Market */,
+				DAF5972F1DD5905F000E8EC2 /* Helper Files */,
+				DA73355A1DD90416003FC7C8 /* Storyboard & List */,
+			);
+			path = Chowline;
+			sourceTree = "<group>";
+		};
+		DAF5970D1DD58C08000E8EC2 /* ChowlineTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5970E1DD58C08000E8EC2 /* ChowlineTests.swift */,
+				DAF597101DD58C08000E8EC2 /* Info.plist */,
+			);
+			path = ChowlineTests;
+			sourceTree = "<group>";
+		};
+		DAF597181DD58C08000E8EC2 /* ChowlineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF597191DD58C08000E8EC2 /* ChowlineUITests.swift */,
+				DAF5971B1DD58C08000E8EC2 /* Info.plist */,
+			);
+			path = ChowlineUITests;
+			sourceTree = "<group>";
+		};
+		DAF5972F1DD5905F000E8EC2 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF597301DD5906D000E8EC2 /* CommonUtils.swift */,
+				DAF597311DD5906D000E8EC2 /* AEXML.swift */,
+				DAF597321DD5906D000E8EC2 /* AppState.swift */,
+				DAF03A3D1DE002540018FDE6 /* BTNavigationDropdownMenu.swift */,
+				DAF597361DD59074000E8EC2 /* MBProgressHUD-master */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		DAF597361DD59074000E8EC2 /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				DAF597371DD59087000E8EC2 /* MBProgressHUD.h */,
+				DAF597381DD59087000E8EC2 /* MBProgressHUD.m */,
+			);
+			name = "MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
+		F06B889479644EB8B00A17BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6922E95D42CDB100FCBDFD75 /* Pods_Chowline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF596F21DD58C08000E8EC2 /* Chowline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF5971E1DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "Chowline" */;
+			buildPhases = (
+				1F938657ABAC740C7636A22D /* [CP] Check Pods Manifest.lock */,
+				DAF596EF1DD58C08000E8EC2 /* Sources */,
+				DAF596F01DD58C08000E8EC2 /* Frameworks */,
+				DAF596F11DD58C08000E8EC2 /* Resources */,
+				4ED5FD158CDA4362C29BCE83 /* [CP] Embed Pods Frameworks */,
+				26523DD5E95091E312FF637F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chowline;
+			productName = Chowline;
+			productReference = DAF596F31DD58C08000E8EC2 /* Chowline.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF597091DD58C08000E8EC2 /* ChowlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF597211DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "ChowlineTests" */;
+			buildPhases = (
+				DAF597061DD58C08000E8EC2 /* Sources */,
+				DAF597071DD58C08000E8EC2 /* Frameworks */,
+				DAF597081DD58C08000E8EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF5970C1DD58C08000E8EC2 /* PBXTargetDependency */,
+			);
+			name = ChowlineTests;
+			productName = ChowlineTests;
+			productReference = DAF5970A1DD58C08000E8EC2 /* ChowlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF597141DD58C08000E8EC2 /* ChowlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF597241DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "ChowlineUITests" */;
+			buildPhases = (
+				DAF597111DD58C08000E8EC2 /* Sources */,
+				DAF597121DD58C08000E8EC2 /* Frameworks */,
+				DAF597131DD58C08000E8EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF597171DD58C08000E8EC2 /* PBXTargetDependency */,
+			);
+			name = ChowlineUITests;
+			productName = ChowlineUITests;
+			productReference = DAF597151DD58C08000E8EC2 /* ChowlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF596EB1DD58C08000E8EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Harloch;
+				TargetAttributes = {
+					DAF596F21DD58C08000E8EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DAF597091DD58C08000E8EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAF596F21DD58C08000E8EC2;
+					};
+					DAF597141DD58C08000E8EC2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAF596F21DD58C08000E8EC2;
+					};
+				};
+			};
+			buildConfigurationList = DAF596EE1DD58C08000E8EC2 /* Build configuration list for PBXProject "Chowline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF596EA1DD58C08000E8EC2;
+			productRefGroup = DAF596F41DD58C08000E8EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF596F21DD58C08000E8EC2 /* Chowline */,
+				DAF597091DD58C08000E8EC2 /* ChowlineTests */,
+				DAF597141DD58C08000E8EC2 /* ChowlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF596F11DD58C08000E8EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF597041DD58C08000E8EC2 /* LaunchScreen.storyboard in Resources */,
+				DAF597281DD58CCE000E8EC2 /* GoogleService-Info.plist in Resources */,
+				DAF597011DD58C08000E8EC2 /* Assets.xcassets in Resources */,
+				DAF596FC1DD58C08000E8EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597081DD58C08000E8EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597131DD58C08000E8EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F938657ABAC740C7636A22D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26523DD5E95091E312FF637F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chowline/Pods-Chowline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED5FD158CDA4362C29BCE83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chowline/Pods-Chowline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF596EF1DD58C08000E8EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF03A401DE003AA0018FDE6 /* DropInViewController.swift in Sources */,
+				DAF5972A1DD58E4A000E8EC2 /* LoginViewController.swift in Sources */,
+				DAF596FF1DD58C08000E8EC2 /* Chowline.xcdatamodeld in Sources */,
+				DAF596F91DD58C08000E8EC2 /* ViewController.swift in Sources */,
+				DA7335571DD903E0003FC7C8 /* MarketRegisterViewController.swift in Sources */,
+				DA7335661DDA47F0003FC7C8 /* ViewFoodCell.swift in Sources */,
+				DA73355E1DD97ADF003FC7C8 /* PostFoodViewController.swift in Sources */,
+				DA7335641DD97B4E003FC7C8 /* ViewMarketViewController.swift in Sources */,
+				DAF03A3E1DE002540018FDE6 /* BTNavigationDropdownMenu.swift in Sources */,
+				DA7335551DD903BA003FC7C8 /* MarketMainViewController.swift in Sources */,
+				DA7335531DD9039E003FC7C8 /* InitialViewController.swift in Sources */,
+				DAF597351DD5906D000E8EC2 /* AppState.swift in Sources */,
+				DAF596F71DD58C08000E8EC2 /* AppDelegate.swift in Sources */,
+				DA733A311DDEA2F1003FC7C8 /* PurchaseViewController.swift in Sources */,
+				DA7335621DD97AFC003FC7C8 /* MarketSettingsViewController.swift in Sources */,
+				DA7335601DD97AEB003FC7C8 /* ViewFoodViewController.swift in Sources */,
+				DA7335511DD90381003FC7C8 /* MarketLoginViewController.swift in Sources */,
+				DAF5972E1DD58E5E000E8EC2 /* MainPageViewController.swift in Sources */,
+				DA7335861DDBEC15003FC7C8 /* ViewMarketCell.swift in Sources */,
+				DAF597341DD5906D000E8EC2 /* AEXML.swift in Sources */,
+				DAF597391DD59087000E8EC2 /* MBProgressHUD.m in Sources */,
+				DAF597331DD5906D000E8EC2 /* CommonUtils.swift in Sources */,
+				DA73355C1DD979A3003FC7C8 /* MapViewController.swift in Sources */,
+				DAF5972C1DD58E55000E8EC2 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597061DD58C08000E8EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5970F1DD58C08000E8EC2 /* ChowlineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF597111DD58C08000E8EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5971A1DD58C08000E8EC2 /* ChowlineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF5970C1DD58C08000E8EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF596F21DD58C08000E8EC2 /* Chowline */;
+			targetProxy = DAF5970B1DD58C08000E8EC2 /* PBXContainerItemProxy */;
+		};
+		DAF597171DD58C08000E8EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF596F21DD58C08000E8EC2 /* Chowline */;
+			targetProxy = DAF597161DD58C08000E8EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF596FA1DD58C08000E8EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF596FB1DD58C08000E8EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF597021DD58C08000E8EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF597031DD58C08000E8EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF5971C1DD58C08000E8EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF5971D1DD58C08000E8EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF5971F1DD58C08000E8EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B3F12C07F124E811EA694B /* Pods-Chowline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Chowline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.Chowline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF597201DD58C08000E8EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51304FC2FD5B7D41682CC8A /* Pods-Chowline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Chowline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.Chowline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DAF597221DD58C08000E8EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChowlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ChowlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowline.app/Chowline";
+			};
+			name = Debug;
+		};
+		DAF597231DD58C08000E8EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChowlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ChowlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chowline.app/Chowline";
+			};
+			name = Release;
+		};
+		DAF597251DD58C08000E8EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChowlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ChowlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chowline;
+			};
+			name = Debug;
+		};
+		DAF597261DD58C08000E8EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChowlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harloch.ChowlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chowline;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF596EE1DD58C08000E8EC2 /* Build configuration list for PBXProject "Chowline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF5971C1DD58C08000E8EC2 /* Debug */,
+				DAF5971D1DD58C08000E8EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF5971E1DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "Chowline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF5971F1DD58C08000E8EC2 /* Debug */,
+				DAF597201DD58C08000E8EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF597211DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "ChowlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF597221DD58C08000E8EC2 /* Debug */,
+				DAF597231DD58C08000E8EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF597241DD58C08000E8EC2 /* Build configuration list for PBXNativeTarget "ChowlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF597251DD58C08000E8EC2 /* Debug */,
+				DAF597261DD58C08000E8EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAF596FD1DD58C08000E8EC2 /* Chowline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAF596FE1DD58C08000E8EC2 /* Chowline.xcdatamodel */,
+			);
+			currentVersion = DAF596FE1DD58C08000E8EC2 /* Chowline.xcdatamodel */;
+			path = Chowline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAF596EB1DD58C08000E8EC2 /* Project object */;
+}
